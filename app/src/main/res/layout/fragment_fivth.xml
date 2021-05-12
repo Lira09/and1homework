@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/silver"
+    tools:context=".FivthFragment">
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="205dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="50dp"
+        android:autofillHints="1"
+        android:background="@color/silver_01"
+        android:paddingHorizontal="20sp"
+        android:paddingVertical="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <Button
+        android:id="@+id/button_fifth"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/purple_01"
+        android:text="Показать"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
